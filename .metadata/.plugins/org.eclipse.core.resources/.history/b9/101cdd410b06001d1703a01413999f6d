@@ -1,0 +1,9 @@
+package com.students.project;
+@Dat
+
+public class Student {
+private String name;
+private String phone;
+private String id;
+
+}

@@ -1,0 +1,17 @@
+package com.students.project;
+
+public class App 
+{
+    public static void main( String[] args )
+    {
+        System.out.println( "********** Welcome To Lambok Programme***********" );
+        Student s = new Student();     
+        s.setName("Ashutosh");
+        System.err.println(s.getName());
+        s.setId("222222");
+        System.err.println(s.getId());
+        s.setPhone("777777777");
+        System.out.println(s.getPhone());
+        System.out.println(s);
+    }
+}

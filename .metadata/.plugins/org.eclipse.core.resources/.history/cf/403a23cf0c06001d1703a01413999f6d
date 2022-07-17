@@ -1,0 +1,13 @@
+package com.students.project;
+
+public class App 
+{
+    public static void main( String[] args )
+    {
+        System.out.println( "Hello World!" );
+        Student s = new Student();
+       
+        s.setName("Ashutosh");
+        System.err.println(s.getName());
+    }
+}
